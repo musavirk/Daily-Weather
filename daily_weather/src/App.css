@@ -1,0 +1,76 @@
+.App {
+  background: radial-gradient(#1656aa, #115f95, #153fa8);
+
+  margin: 0 200px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city-buttons {
+  padding: 2px;
+  margin: 0;
+  width: auto;
+  color: #fff;
+  background: transparent;
+  border: none;
+  font-size: large;
+}
+
+.search-location input {
+  color: #181515;
+  font-size: large;
+  outline: none;
+  padding: 2px;
+  font: lighter;
+  text-transform: capitalize;
+}
+.icon svg {
+  color: #fff;
+}
+.units {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.text-white {
+  color: #fff;
+}
+.font-xl {
+  font-size: x-large;
+}
+.font-lg {
+  font-size: large;
+}
+.font-xxl {
+  font-size: xx-large;
+}
+.date-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details {
+  color: #3bc4c4;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+.temperature {
+  font-size: 4rem;
+}
+.forcast {
+  display: flex;
+  flex-direction: row;
+}
+.forcast-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 20px;
+}
+.location {
+  font-size: 2rem;
+}

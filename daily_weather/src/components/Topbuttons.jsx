@@ -28,7 +28,7 @@ function TopButtons() {
     <Container className="center">
       <Row>
         {cities.map((city) => (
-          <Col className="my-1 ">
+          <Col key={city.id} className="my-1 ">
             <button key={city.id} className="city-buttons font-md">
               {city.value}
             </button>
